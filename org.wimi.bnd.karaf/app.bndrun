@@ -1,0 +1,18 @@
+-runpath: biz.aQute.remote.launcher
+
+-runremote: debug;\
+	shell   =   -1; \
+	jdb     =   5005; \
+	host    =   localhost; \
+	agent   =   29998; \
+	timeout =   30000
+
+
+-runee: JavaSE-1.8
+
+-runproperties: gosh.args=--noshutdown
+
+-runtrace: true
+
+-runbundles: \
+	karaf-test
